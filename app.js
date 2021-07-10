@@ -47,4 +47,5 @@ let currentItem = 0;
 window.addEventListener("DOMContentLoaded", function () {
   const item = reviews[currentItem];
   img.src = item.img;
+  author.textContent = item.name;
 });
